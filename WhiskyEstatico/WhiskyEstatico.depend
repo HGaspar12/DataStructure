@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1525037078 source:c:\users\henri\documents\github\datastructure\whiskyestatico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"whiskyEstatico.h"
+
+1525037376 c:\users\henri\documents\github\datastructure\whiskyestatico\whiskyestatico.h
+
+1525037274 source:c:\users\henri\documents\github\datastructure\whiskyestatico\whiskyestatico.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"whiskyEstatico.h"
+
