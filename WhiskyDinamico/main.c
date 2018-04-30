@@ -13,7 +13,7 @@ int main(){
 
 
     inicializarLista(&lista);
-/*
+
     elem.cod = 1;
     strcpy(elem.nomeWhisky , "Jack Daniels");
     strcpy(elem.paisOrigem, "Estados Unidos");
@@ -40,15 +40,16 @@ int main(){
     elem.idadeWhisky = 10;
     elem.quantidade = 8;
     inserirQtd(&lista, elem);
-*/
 
-    menu();
+
+    /*menu();
     scanf("%i", &option);
 
 
     elem = (const REGISTRO){"Johnnie Walker",1500.00,25,"Inglaterra",1,5};
-    if(option==1)inserirIdade(&lista, elem);
-
+    if(option==1){
+        inserirIdade(&lista, elem);
+    }
     else if(option==2){
         inserirQtd(&lista, elem);
     }
@@ -94,7 +95,7 @@ printf("Reexibicao do estoque:\n\n");
 if(option==1) puts("Estoque ordenado por Idade:\n");
 else if(option==2) puts("Estoque ordenado por Quantidade no estoque:\n");
 else if(option==3) puts("Estoque ordenado por Pais:\n");
-exibirWhisky(&lista);
+exibirWhisky(&lista);*/
 
 reinicializarLista(&lista);
 return 0;
