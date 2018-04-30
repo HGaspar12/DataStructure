@@ -96,7 +96,7 @@ if(option==1) puts("Estoque ordenado por Idade:\n");
 else if(option==2) puts("Estoque ordenado por Quantidade no estoque:\n");
 else if(option==3) puts("Estoque ordenado por Pais:\n");
 exibirWhisky(&lista);*/
-
+exibirWhisky(&lista);
 reinicializarLista(&lista);
 return 0;
 }
