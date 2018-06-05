@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1525447498 source:c:\users\henri\documents\github\datastructure\dinamicwhisky\dinamicwhisky1.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"DinamicWhisky1.h"
+
+1525445442 c:\users\henri\documents\github\datastructure\dinamicwhisky\dinamicwhisky1.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1525447803 source:c:\users\henri\documents\github\datastructure\dinamicwhisky\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"DinamicWhisky1.h"
+

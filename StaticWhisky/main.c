@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h> //biblioteca para utilização de acentuação da lingua portuguesa
-#include "whiskyEstatico.h"
+#include "StaticWhisky1.h"
 
 int main(){
 
@@ -79,7 +79,7 @@ int main(){
     do{
      menu();
      printf("\n");
-     printf("Digite uma opção: \n");
+     printf("Digite uma opcao: \n");
      scanf("%d", &option);
 
     if (option == 1){
@@ -119,7 +119,7 @@ int main(){
                 buscaSequencial(&lista, busca);
      }
     else if(option == 4){
-                printf("\n Busca binária: \n");
+                printf("\n Busca binaria: \n");
 
                 printf("\nCodigo do produto para busca: ");
                 scanf("%d", &busca);
@@ -155,7 +155,6 @@ int main(){
         printf("\nTotal de Whisky no sistema: %d\n",tamanhoLista(&lista));
     }
     else if(option == 0){
-        printf("\n Saindo \n");
         exit (0);
     }
      else{

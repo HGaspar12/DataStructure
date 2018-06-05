@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1525445185 source:c:\users\henri\documents\github\datastructure\staticwhisky\staticwhisky1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"StaticWhisky1.h"
+
+1525445144 c:\users\henri\documents\github\datastructure\staticwhisky\staticwhisky1.h
+
+1525445250 source:c:\users\henri\documents\github\datastructure\staticwhisky\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"StaticWhisky1.h"
+
